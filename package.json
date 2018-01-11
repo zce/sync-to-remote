@@ -1,0 +1,46 @@
+{
+  "name": "sync-to-remote",
+  "version": "0.1.0",
+  "description": "Monitor files change and synchronize to the remote repo",
+  "keywords": [
+    "cli",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/sync-to-remote#readme",
+  "bugs": {
+    "url": "https://github.com/zce/sync-to-remote/issues"
+  },
+  "license": "MIT",
+  "author": "zce <w@zce.me> (https://zce.me/)",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "bin": {
+    "sync-to-remote": "bin/sync-to-remote.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/sync-to-remote.git"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {
+    "chokidar": "^2.0.0",
+    "commander": "^2.11.0",
+    "gh-pages": "^1.1.0",
+    "gift": "^0.10.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "preferGlobal": true
+}
